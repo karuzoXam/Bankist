@@ -1,65 +1,29 @@
 # Bankist-App JavaScript-Code Überblick
 
-Dieses Dokument gibt eine kurze Übersicht über den JavaScript-Code der Bankist-App:
+## Zusammenfassung
 
-## Code-Struktur
+Dieser JavaScript-Code stellt eine einfache Bankanwendung dar. Die App ermöglicht es Benutzern, sich einzuloggen, ihre Kontostände anzuzeigen, Überweisungen zu tätigen, Kredite zu beantragen, Konten zu schließen und Transaktionshistorien zu sortieren. Sie zeichnet alle Transaktionen auf und bietet eine automatische Abmeldung nach Inaktivität.
 
-- **Daten**: Definitionen von Bankkontodaten wie Kontoinhabernamen, Kontoständen und PIN-Codes.
+## Kernfunktionen
 
-- **Elemente**: DOM-Elemente für die Benutzeroberfläche der Anwendung.
+- **Einloggen**: Benutzer können sich mit einem Benutzernamen und PIN-Code anmelden.
 
-- **Funktionen**: Verschiedene Funktionen für die Datenformatierung und Benutzeroberfläche.
+- **Kontostände anzeigen**: Benutzer können ihre aktuellen Kontostände einsehen.
 
-- **Ereignis-Handler**: Event-Listener für Benutzeraktionen wie Einloggen, Überweisungen, Kredite und mehr.
+- **Überweisungen**: Geld kann zwischen verschiedenen Konten überwiesen werden.
 
-- **Start Logout-Timer**: Ein Timer, der Benutzer nach Inaktivität ausloggt.
+- **Kreditanfragen**: Benutzer können Kredite beantragen, wenn sie bestimmte Voraussetzungen erfüllen.
 
-- **Benutzernamen**: Eine Funktion zur Generierung eindeutiger Benutzernamen.
+- **Konten schließen**: Konten können geschlossen werden, wenn die erforderlichen Informationen eingegeben werden.
 
-- **Benutzeroberfläche aktualisieren**: Eine Funktion zur Aktualisierung der Benutzeroberfläche.
+- **Transaktionen sortieren**: Die App ermöglicht das Sortieren von Transaktionshistorien.
 
-## Funktionen
+- **Transaktionsaufzeichnungen**: Alle Transaktionen werden mit Zeitstempeln festgehalten.
 
-- **Transaktionen anzeigen**: Zeigt Kontotransaktionen und sortiert sie.
-
-- **Kontostand berechnen**: Berechnet den aktuellen Kontostand.
-
-- **Zusammenfassung anzeigen**: Zeigt Einzahlungen, Auszahlungen und Zinsen.
-
-- **Einloggen**: Authentifiziert Benutzer und aktualisiert die Benutzeroberfläche.
-
-- **Überweisungen**: Ermöglicht Geldüberweisungen zwischen Konten.
-
-- **Kredite anfordern**: Beantragt Kredite basierend auf bestimmten Kriterien.
-
-- **Konto schließen**: Ermöglicht das Schließen eines Kontos.
-
-- **Transaktionen sortieren**: Sortiert die Transaktionshistorie.
-
-## Features
-
-- **Kontoverwaltung**: Einloggen, Transaktionen anzeigen, Kontostand prüfen.
-
-- **Transaktionshistorie**: Aufzeichnung aller Transaktionen mit Zeitstempeln.
-
-- **Automatisches Ausloggen**: Benutzer werden nach Inaktivität ausgeloggt.
-
-- **Währungsformatierung**: Beträge werden entsprechend der Kontolokalisierung formatiert.
-
-- **Kreditanfragen**: Benutzer können Kredite beantragen, wenn sie bestimmte Kriterien erfüllen.
-
-- **Benutzernamengenerierung**: Eindeutige Benutzernamen werden erstellt.
-
-## Hinweise
-
-- Der Code enthält Kommentare, die die Funktionen und Abschnitte erläutern.
+- **Automatische Abmeldung**: Benutzer werden nach Inaktivität automatisch ausgeloggt.
 
 ## Verwendung
 
-- Der Code kann in eine HTML-Seite eingebunden werden, die die erforderlichen Elemente und Stile enthält.
+Dieser Code kann als Grundlage für die Entwicklung einer Banking-Anwendung dienen. Er bietet grundlegende Bankfunktionen und eine übersichtliche Benutzeroberfläche.
 
-- Der Code dient als Ausgangspunkt für die Erstellung einer Banking-Anwendung.
 
-- Er kann angepasst werden, um spezifische Projektanforderungen zu erfüllen.
-
-Dieser Überblick gibt eine grundlegende Vorstellung von Code-Struktur und Funktionalität.
