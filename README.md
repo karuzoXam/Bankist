@@ -1,51 +1,65 @@
 # Bankist-App JavaScript-Code Überblick
 
-Dieses Dokument bietet einen kurzen Überblick über den JavaScript-Code für die fiktive "Bankist-App". Der Code simuliert die Funktionalität einer Banking-Anwendung, einschließlich der Verwaltung von Konten, Transaktionen und der Benutzeroberfläche.
+Dieses Dokument gibt eine kurze Übersicht über den JavaScript-Code der Bankist-App:
 
 ## Code-Struktur
 
-Der Code ist in folgende Abschnitte unterteilt:
+- **Daten**: Definitionen von Bankkontodaten wie Kontoinhabernamen, Kontoständen und PIN-Codes.
 
-1. **Daten**: Definitionen von Bankkontodaten wie Kontoinhabernamen, Kontoständen, Zinssätzen und PIN-Codes. Es gibt zwei Beispiele für Konten.
+- **Elemente**: DOM-Elemente für die Benutzeroberfläche der Anwendung.
 
-2. **Elemente**: DOM-Elemente für verschiedene Teile der Bank-App, wie Kontostand, Transaktionsübersichten, Schaltflächen und Formulareingaben.
+- **Funktionen**: Verschiedene Funktionen für die Datenformatierung und Benutzeroberfläche.
 
-3. **Funktionen**: Eine Reihe von Funktionen zur Formatierung von Daten, zur Anzeige von Bewegungen, zur Berechnung von Kontoständen und zur Aktualisierung der Benutzeroberfläche.
+- **Ereignis-Handler**: Event-Listener für Benutzeraktionen wie Einloggen, Überweisungen, Kredite und mehr.
 
-4. **Ereignis-Handler**: Ereignislistener für Benutzerinteraktionen, darunter das Einloggen, Geldüberweisungen, Kreditanfragen, das Schließen eines Kontos, das Sortieren von Transaktionen und mehr.
+- **Start Logout-Timer**: Ein Timer, der Benutzer nach Inaktivität ausloggt.
 
-5. **Start Logout-Timer**: Eine Funktion, die einen Timer startet, um Benutzer automatisch nach einer Inaktivitätszeit auszuloggen.
+- **Benutzernamen**: Eine Funktion zur Generierung eindeutiger Benutzernamen.
 
-6. **Benutzernamen**: Eine Funktion zur Generierung eindeutiger Benutzernamen für jedes Konto basierend auf dem Namen des Kontoinhabers.
+- **Benutzeroberfläche aktualisieren**: Eine Funktion zur Aktualisierung der Benutzeroberfläche.
 
-7. **Benutzeroberfläche aktualisieren**: Eine Funktion zur Aktualisierung der Benutzeroberfläche mit den Kontoinformationen und Transaktionsdetails.
+## Funktionen
 
-## Unterstützte Funktionen
+- **Transaktionen anzeigen**: Zeigt Kontotransaktionen und sortiert sie.
 
-Der Code zeigt verschiedene wichtige Funktionen einer Bank-App:
+- **Kontostand berechnen**: Berechnet den aktuellen Kontostand.
 
-- **Kontoverwaltung**: Benutzer können sich einloggen, ihren Kontostand anzeigen und verschiedene Transaktionen durchführen.
+- **Zusammenfassung anzeigen**: Zeigt Einzahlungen, Auszahlungen und Zinsen.
 
-- **Transaktionsverlauf**: Alle Transaktionen, einschließlich Einzahlungen, Abhebungen und Kredite, werden mit Zeitstempeln aufgezeichnet.
+- **Einloggen**: Authentifiziert Benutzer und aktualisiert die Benutzeroberfläche.
 
-- **Automatisches Ausloggen**: Die App meldet Benutzer automatisch ab, wenn sie eine Weile inaktiv waren.
+- **Überweisungen**: Ermöglicht Geldüberweisungen zwischen Konten.
 
-- **Währungsformatierung**: Die App formatiert Währungsbeträge basierend auf der Ländereinstellung des Kontos.
+- **Kredite anfordern**: Beantragt Kredite basierend auf bestimmten Kriterien.
 
-- **Kreditgenehmigung**: Benutzer können Kredite beantragen, wenn sie bestimmte Kriterien erfüllen.
+- **Konto schließen**: Ermöglicht das Schließen eines Kontos.
 
-- **Generierung von Benutzernamen**: Eindeutige Benutzernamen werden für jedes Konto generiert, basierend auf dem Namen des Kontoinhabers.
+- **Transaktionen sortieren**: Sortiert die Transaktionshistorie.
+
+## Features
+
+- **Kontoverwaltung**: Einloggen, Transaktionen anzeigen, Kontostand prüfen.
+
+- **Transaktionshistorie**: Aufzeichnung aller Transaktionen mit Zeitstempeln.
+
+- **Automatisches Ausloggen**: Benutzer werden nach Inaktivität ausgeloggt.
+
+- **Währungsformatierung**: Beträge werden entsprechend der Kontolokalisierung formatiert.
+
+- **Kreditanfragen**: Benutzer können Kredite beantragen, wenn sie bestimmte Kriterien erfüllen.
+
+- **Benutzernamengenerierung**: Eindeutige Benutzernamen werden erstellt.
 
 ## Hinweise
 
-Im gesamten Code gibt es Kommentare, die den Zweck und die Funktionsweise verschiedener Teile und einzelner Zeilen erklären.
+- Der Code enthält Kommentare, die die Funktionen und Abschnitte erläutern.
 
 ## Verwendung
 
-Um die Bankist-App zu verwenden, sollte der Code mit einer HTML-Seite verknüpft werden, die die entsprechenden Elemente und Stile enthält. Es ist auch wichtig, die erforderliche HTML-Struktur für die App-Komponenten einzuschließen.
+- Der Code kann in eine HTML-Seite eingebunden werden, die die erforderlichen Elemente und Stile enthält.
 
-**Hinweis**: Dieser Codeausschnitt enthält Kommentare und Beispieldaten für zwei Konten und kann als Ausgangspunkt für den Aufbau einer vollwertigen Banking-Anwendung dienen.
+- Der Code dient als Ausgangspunkt für die Erstellung einer Banking-Anwendung.
 
-Fühlen Sie sich frei, den Code zu modifizieren und zu erweitern, um spezifische Projektanforderungen zu erfüllen.
+- Er kann angepasst werden, um spezifische Projektanforderungen zu erfüllen.
 
-Dieser Überblick bietet ein grundlegendes Verständnis der Code-Struktur und seiner Funktionalität. Für eine detaillierte Erklärung jeder Funktion und Komponente sollten Sie die im Code enthaltenen Kommentare und die oben stehenden Erläuterungen zu den einzelnen Abschnitten beachten.
+Dieser Überblick gibt eine grundlegende Vorstellung von Code-Struktur und Funktionalität.
