@@ -22,6 +22,10 @@ Dieser JavaScript-Code stellt eine einfache Bankanwendung dar. Die App ermöglic
 
 - **Automatische Abmeldung**: Benutzer werden nach Inaktivität automatisch ausgeloggt.
 
+## Vorschau
+
+ ![PigGame Screenshot](Pig_Game.png)
+
 ## Verwendung
 
 Dieser Code kann als Grundlage für die Entwicklung einer Banking-Anwendung dienen. Er bietet grundlegende Bankfunktionen und eine übersichtliche Benutzeroberfläche.
