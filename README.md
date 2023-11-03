@@ -24,7 +24,7 @@ Dieser JavaScript-Code stellt eine einfache Bankanwendung dar. Die App ermöglic
 
 ## Vorschau
 
- ![Bankist Screenshot](Pig_Game.png)
+ ![Bankist Screenshot](Bankist.png)
 
 ## Verwendung
 
